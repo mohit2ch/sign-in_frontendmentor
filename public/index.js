@@ -1,7 +1,7 @@
 const fname = document.getElementById("FirstName");
 const fnamemsg = document.getElementById("FirstNameMsg");
 
-fname.addEventListener('onchange',function(){
+fname.addEventListener('change',function(){
     let msg = fname.value;
     if(msg.length == 0){
         fname.style.border = "#ff7978 solid";
@@ -18,7 +18,7 @@ fname.addEventListener('onchange',function(){
 const lname = document.getElementById("LastName");
 const lnamemsg = document.getElementById("LastNameMsg");
 
-lname.addEventListener('onchange',function(){
+lname.addEventListener('change',function(){
     let msg = lname.value;
     if(msg.length == 0){
         lname.style.border = "#ff7978 solid";
@@ -33,7 +33,7 @@ lname.addEventListener('onchange',function(){
 const email = document.getElementById("Email");
 const emailmsg = document.getElementById("EmailMsg");
 
-email.addEventListener('onchange',function(){
+email.addEventListener('change',function(){
     let msg = email.value;
     if(msg.length == 0){
         email.style.border = "#ff7978 solid";
@@ -48,7 +48,7 @@ email.addEventListener('onchange',function(){
 const pwd = document.getElementById("Pwd");
 const pwdmsg = document.getElementById("PwdMsg");
 
-pwd.addEventListener('onchange',function(){
+pwd.addEventListener('change',function(){
     let msg = pwd.value;
     if(msg.length == 0){
         pwd.style.border = "#ff7978 solid";
